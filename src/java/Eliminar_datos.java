@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author demon
+ * @author TheLostFloyd
  */
 public class Eliminar_datos extends HttpServlet {
 

@@ -21,7 +21,7 @@ public class acciones_alumno {
     public static Connection getConnection(){
         String url, user, password;
         //Establecemos la ruta donde esta la bd
-        url = "jdbc:mysql:3306/localhost/Alumno";
+        url = "jdbc:mysql:3306/localhost/Alumnos";
         user = "root";
         password = "brandon1234";
         
@@ -38,7 +38,7 @@ public class acciones_alumno {
             System.out.println("Si se conecto la bd");
             
         }catch(Exception e){
-           System.out.println("No se conecto la bd");
+           System.out.println("No se conecto la base de datos");
            System.out.println(e.getMessage());
            System.out.println(e.getStackTrace());
         }
